@@ -2,6 +2,78 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Xamarin.Build.Download/0.4.6": {
+        "type": "package",
+        "build": {
+          "build/Xamarin.Build.Download.props": {},
+          "build/Xamarin.Build.Download.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.Analytics/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.6",
+          "Xamarin.Firebase.iOS.Core": "4.0.8",
+          "Xamarin.Firebase.iOS.InstanceID": "2.0.4"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.Analytics.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.Analytics.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Firebase.iOS.Analytics.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.CloudMessaging/2.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.6",
+          "Xamarin.Firebase.iOS.Analytics": "4.0.4",
+          "Xamarin.Firebase.iOS.Core": "4.0.8",
+          "Xamarin.Firebase.iOS.InstanceID": "2.0.4"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.CloudMessaging.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.CloudMessaging.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Firebase.iOS.CloudMessaging.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.Core/4.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.6"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.Core.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Firebase.iOS.Core.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.InstanceID/2.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.6"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.InstanceID.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.InstanceID.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Firebase.iOS.InstanceID.targets": {}
+        }
+      },
       "Xamarin.Forms/2.5.0.121934": {
         "type": "package",
         "compile": {
@@ -127,6 +199,78 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Xamarin.Build.Download/0.4.6": {
+        "type": "package",
+        "build": {
+          "build/Xamarin.Build.Download.props": {},
+          "build/Xamarin.Build.Download.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.Analytics/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.6",
+          "Xamarin.Firebase.iOS.Core": "4.0.8",
+          "Xamarin.Firebase.iOS.InstanceID": "2.0.4"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.Analytics.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.Analytics.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Firebase.iOS.Analytics.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.CloudMessaging/2.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.6",
+          "Xamarin.Firebase.iOS.Analytics": "4.0.4",
+          "Xamarin.Firebase.iOS.Core": "4.0.8",
+          "Xamarin.Firebase.iOS.InstanceID": "2.0.4"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.CloudMessaging.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.CloudMessaging.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Firebase.iOS.CloudMessaging.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.Core/4.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.6"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.Core.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Firebase.iOS.Core.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.InstanceID/2.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.6"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.InstanceID.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.InstanceID.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Firebase.iOS.InstanceID.targets": {}
+        }
+      },
       "Xamarin.Forms/2.5.0.121934": {
         "type": "package",
         "compile": {
@@ -252,6 +396,78 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Xamarin.Build.Download/0.4.6": {
+        "type": "package",
+        "build": {
+          "build/Xamarin.Build.Download.props": {},
+          "build/Xamarin.Build.Download.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.Analytics/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.6",
+          "Xamarin.Firebase.iOS.Core": "4.0.8",
+          "Xamarin.Firebase.iOS.InstanceID": "2.0.4"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.Analytics.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.Analytics.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Firebase.iOS.Analytics.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.CloudMessaging/2.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.6",
+          "Xamarin.Firebase.iOS.Analytics": "4.0.4",
+          "Xamarin.Firebase.iOS.Core": "4.0.8",
+          "Xamarin.Firebase.iOS.InstanceID": "2.0.4"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.CloudMessaging.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.CloudMessaging.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Firebase.iOS.CloudMessaging.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.Core/4.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.6"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.Core.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Firebase.iOS.Core.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.InstanceID/2.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.6"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.InstanceID.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.InstanceID.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Firebase.iOS.InstanceID.targets": {}
+        }
+      },
       "Xamarin.Forms/2.5.0.121934": {
         "type": "package",
         "compile": {
@@ -377,6 +593,78 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Xamarin.Build.Download/0.4.6": {
+        "type": "package",
+        "build": {
+          "build/Xamarin.Build.Download.props": {},
+          "build/Xamarin.Build.Download.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.Analytics/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.6",
+          "Xamarin.Firebase.iOS.Core": "4.0.8",
+          "Xamarin.Firebase.iOS.InstanceID": "2.0.4"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.Analytics.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.Analytics.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Firebase.iOS.Analytics.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.CloudMessaging/2.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.6",
+          "Xamarin.Firebase.iOS.Analytics": "4.0.4",
+          "Xamarin.Firebase.iOS.Core": "4.0.8",
+          "Xamarin.Firebase.iOS.InstanceID": "2.0.4"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.CloudMessaging.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.CloudMessaging.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Firebase.iOS.CloudMessaging.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.Core/4.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.6"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.Core.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Firebase.iOS.Core.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.InstanceID/2.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.6"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.InstanceID.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.InstanceID.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Firebase.iOS.InstanceID.targets": {}
+        }
+      },
       "Xamarin.Forms/2.5.0.121934": {
         "type": "package",
         "compile": {
@@ -503,6 +791,67 @@
     }
   },
   "libraries": {
+    "Xamarin.Build.Download/0.4.6": {
+      "sha512": "MCcNQa7gHQVYDzt6YKSrAjOBNqgb3JQYZDPubtWk2s/eV4eUBicuxZczchcvuk2+US3AOuyFxIcMwnej74dWaA==",
+      "type": "package",
+      "path": "xamarin.build.download/0.4.6",
+      "files": [
+        "THIRD-PARTY-NOTICES.txt",
+        "build/Mono.Cecil.dll",
+        "build/Newtonsoft.Json.dll",
+        "build/System.Net.Http.Formatting.dll",
+        "build/Xamarin.Build.Download.dll",
+        "build/Xamarin.Build.Download.props",
+        "build/Xamarin.Build.Download.targets",
+        "xamarin.build.download.0.4.6.nupkg.sha512",
+        "xamarin.build.download.nuspec"
+      ]
+    },
+    "Xamarin.Firebase.iOS.Analytics/4.0.4": {
+      "sha512": "jHl79X5cxpzVRUee64ZwCNoqxnxMjFWaviFHW+Ck1SQfsxBv4ML8uAsFrP9uW13q5qyEWoAHiIBjofv0uJ6cFw==",
+      "type": "package",
+      "path": "xamarin.firebase.ios.analytics/4.0.4",
+      "files": [
+        "build/Xamarin.Firebase.iOS.Analytics.targets",
+        "lib/Xamarin.iOS10/Firebase.Analytics.dll",
+        "xamarin.firebase.ios.analytics.4.0.4.nupkg.sha512",
+        "xamarin.firebase.ios.analytics.nuspec"
+      ]
+    },
+    "Xamarin.Firebase.iOS.CloudMessaging/2.0.4": {
+      "sha512": "hqZUY0GBn2A8+xI+DWejgJFdHQyqQshivT/nSCbI+QVmQ/xAsJkLhHyexX3J9AQy4b/ROyfvlfj7ir8AGBzDeA==",
+      "type": "package",
+      "path": "xamarin.firebase.ios.cloudmessaging/2.0.4",
+      "files": [
+        "build/Xamarin.Firebase.iOS.CloudMessaging.targets",
+        "lib/Xamarin.iOS10/Firebase.CloudMessaging.dll",
+        "xamarin.firebase.ios.cloudmessaging.2.0.4.nupkg.sha512",
+        "xamarin.firebase.ios.cloudmessaging.nuspec"
+      ]
+    },
+    "Xamarin.Firebase.iOS.Core/4.0.8": {
+      "sha512": "9hZbYBc/kf0W4pZIpxKtj2+zqB7a/cPl8DWWk26xeXSAp7AZYOm9adT5yzKq5VYcqPPetjkfoZQa6erTaLCiyg==",
+      "type": "package",
+      "path": "xamarin.firebase.ios.core/4.0.8",
+      "files": [
+        "THIRD-PARTY-NOTICES",
+        "build/Xamarin.Firebase.iOS.Core.targets",
+        "lib/Xamarin.iOS10/Firebase.Core.dll",
+        "xamarin.firebase.ios.core.4.0.8.nupkg.sha512",
+        "xamarin.firebase.ios.core.nuspec"
+      ]
+    },
+    "Xamarin.Firebase.iOS.InstanceID/2.0.4": {
+      "sha512": "2kz4RaZTQtuaIJQcw/tZ9OiXJ/oTC5Kgr7VzNyf7aavVUy4xQAMVOlnwDgQ70JyFymuu5M4Vw5BhcHWK29tNEw==",
+      "type": "package",
+      "path": "xamarin.firebase.ios.instanceid/2.0.4",
+      "files": [
+        "build/Xamarin.Firebase.iOS.InstanceID.targets",
+        "lib/Xamarin.iOS10/Firebase.InstanceID.dll",
+        "xamarin.firebase.ios.instanceid.2.0.4.nupkg.sha512",
+        "xamarin.firebase.ios.instanceid.nuspec"
+      ]
+    },
     "Xamarin.Forms/2.5.0.121934": {
       "sha512": "H3Gh6nvximMk9i8LdfhPnARo+kEsh8hDXWRboiUPb1r22gkIGA8i8tbnRcSXJWk4fCW/kdMTom6SFN0L+NhItw==",
       "type": "package",
@@ -688,6 +1037,7 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "Xamarin.Firebase.iOS.CloudMessaging >= 2.0.4",
       "Xamarin.Forms >= 2.5.0.121934"
     ]
   },
@@ -724,6 +1074,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Xamarin.Firebase.iOS.CloudMessaging": {
+            "target": "Package",
+            "version": "[2.0.4, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[2.5.0.121934, )"
