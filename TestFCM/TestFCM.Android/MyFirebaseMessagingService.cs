@@ -19,6 +19,7 @@ namespace TestFCM.Droid
             // message, here is where that should be initiated. See sendNotification method below.
             Android.Util.Log.Debug(Tag, "From: " + message.From);
             Android.Util.Log.Debug(Tag, "Notification Message Body: " + message.GetNotification().Body);
+            base.OnMessageReceived(message);
             SendNotification(message.GetNotification().Body, message.Data);
         }
         void SendNotification(string messageBody, IDictionary<string, string> data)

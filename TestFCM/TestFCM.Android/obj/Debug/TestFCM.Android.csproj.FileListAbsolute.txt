@@ -68,13 +68,12 @@ C:\Work\TestFCM\TestFCM\TestFCM.Android\obj\Debug\android\assets\TestFCM.Android
 C:\Work\TestFCM\TestFCM\TestFCM.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Work\TestFCM\TestFCM\TestFCM.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Work\TestFCM\TestFCM\TestFCM.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-obj\Debug\linksrc\Mono.Android.pdb
-obj\Debug\linksrc\System.ServiceModel.Internals.pdb
 C:\Work\TestFCM\TestFCM\TestFCM.Android\bin\Debug\TestFCM.Android.dll
 bin\Debug\FormsViewGroup.dll.mdb
 bin\Debug\Xamarin.Forms.Core.dll.mdb
 bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
 bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+bin\Debug\Mono.Android.pdb
 bin\Debug\mscorlib.pdb
 bin\Debug\System.Core.pdb
 bin\Debug\System.pdb
@@ -82,6 +81,7 @@ bin\Debug\System.Xml.pdb
 bin\Debug\System.Xml.Linq.pdb
 bin\Debug\System.Net.Http.pdb
 bin\Debug\System.Runtime.Serialization.pdb
+bin\Debug\System.ServiceModel.Internals.pdb
 bin\Debug\Mono.Security.pdb
 bin\Debug\System.ComponentModel.Composition.pdb
 obj\Debug\linksrc\TestFCM.Android.dll.mdb
@@ -89,6 +89,7 @@ obj\Debug\linksrc\FormsViewGroup.dll.mdb
 obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb
 obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
 obj\Debug\linksrc\Xamarin.Forms.Xaml.dll.mdb
+obj\Debug\linksrc\Mono.Android.pdb
 obj\Debug\linksrc\mscorlib.pdb
 obj\Debug\linksrc\System.Core.pdb
 obj\Debug\linksrc\System.pdb
@@ -96,5 +97,6 @@ obj\Debug\linksrc\System.Xml.pdb
 obj\Debug\linksrc\System.Xml.Linq.pdb
 obj\Debug\linksrc\System.Net.Http.pdb
 obj\Debug\linksrc\System.Runtime.Serialization.pdb
+obj\Debug\linksrc\System.ServiceModel.Internals.pdb
 obj\Debug\linksrc\Mono.Security.pdb
 obj\Debug\linksrc\System.ComponentModel.Composition.pdb
